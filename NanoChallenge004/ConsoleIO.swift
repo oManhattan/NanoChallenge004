@@ -48,7 +48,7 @@ public class ConsoleIO {
         let arr = Array.init(text)
         
         for i in arr {
-//            usleep(106000)
+            usleep(106000)
             print(i, terminator: "")
         }
         print("")
